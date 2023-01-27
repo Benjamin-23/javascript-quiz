@@ -1,0 +1,51 @@
+body{ 
+    background-color: rgb(23, 26, 29);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.card{ 
+    background-color: rgb(31, 33, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{ 
+    width: 30em;
+    background-color: rgba(78, 78, 78, 0.993);
+    display: grid;
+    min-height: 20em;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: monospace;
+    
+}
+.center h2 { 
+    color: aliceblue;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#count{ 
+    color: beige;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+#incrementCount{ 
+    background-color: rgb(37, 35, 35);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    /* padding: 2px 6px; */
+    margin: 8px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
