@@ -27,9 +27,9 @@ function getSum (num, target){
 }
 console.log(getSum(num, target));
 
-case array = [1,2,3,1,5]
-target = 5
-return: [ [1,3,1],[2,3],[5] ]
+// case array = [1,2,3,1,5]
+// target = 5
+// return: [ [1,3,1],[2,3],[5] ]
 
 const  combinationSum = (marks,target) =>{
     let arr2 = [] ;
